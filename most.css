@@ -1,0 +1,241 @@
+body {
+    font-family: Comic Sans MS;
+}
+
+.follow {
+  text-decoration: none;
+  z-index: 1;
+}
+#followUs {
+  position: fixed;
+  top: 15px;
+  right: 275px;
+}
+#instagram {
+  position: fixed;
+  top: 50px;
+  right: 225px;
+}
+#twitter {
+  position: fixed;
+  top: 50px;
+  right: 175px;
+}
+#tumblr {
+  position: fixed;
+  top: 50px;
+  right: 125px;
+}
+
+.title {
+   margin-left: 10px;
+   margin-bottom: 2px;
+   font-size: 60px;
+}
+#founded {
+  font-size: 15px;
+  margin-left: 175px;
+}
+
+.Navbar {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    border-radius: 5px;
+    z-index: 1;
+}
+.Navbar li {
+  float: right;
+  z-index: 10;
+}
+.Navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#yeetanimation {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+
+.hiddenTeas {
+  opacity: 0;
+}
+.hiddenTeas:hover {
+  opacity: 1;
+}
+#hiddenTea1 {
+  position: fixed;
+  left: 440px;
+  top: 60px;
+  font-size: 8px;
+}
+#hiddenTea2 {
+  float: left;
+  display: block;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+#twitterFeed {
+  position: relative;
+  width: 20%;
+  left: 2%;
+  right:2%;
+  margin-top: 30px;
+  border: 5px solid black;
+
+}
+
+.homeContent {
+  position: relative;
+  left: 25%;
+  top: -1465px;
+  width: 74%;
+  border: 5px solid black;
+  z-index: -1;
+}
+.homeContent h1 {
+  margin-left: 20px;
+}
+.homeContent p {
+  margin-left: 70px;
+  margin-top: 2px;
+}
+.homeContent h3 {
+  margin-left: 40px;
+}
+#yeeeet {
+  margin-left: 300px;
+}
+
+#container {
+  width: 5000px;
+  height: 400px;
+  position: fixed;
+  top: 2px;
+  left: 5px;
+  z-index: 20;
+}
+#animation {
+  width: 700px;
+  position: absolute;
+  z-index: 2;
+}
+
+.contactContent {
+  position: relative;
+  text-decoration: none;
+  left: 25%;
+  border: 5px solid black;
+  top: -370px;
+  width: 74%;
+}
+.contactContent p {
+  margin-left: 40px;
+}
+.contactContentA {
+  text-decoration: none;
+  color: #0e0b33;
+}
+.contactContent h1 {
+  margin-left: 10px;
+}
+
+.contactButtons {
+  text-align: center;
+}
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 13px;
+    line-height: 50px;
+    border-radius: 25px;
+    color: #ffffff;
+    background-color: #000000;
+}
+.chip:hover {
+  color: #ffffff;
+  background-color: #3a3a3a;
+}
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.chip a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.calendar {
+  position: relative;
+  bottom: 410px;
+  margin-left: 25%;
+}
+.calendar h3{
+  text-align: left;
+  
+}
+
+#twitterFeedEvents {
+  position: relative;
+  width: 20%;
+  left: 2%;
+  right:2%;
+  margin-top: 30px;
+  border: 5px solid black;
+}
+
+.aboutContent {
+  position: relative;
+  left: 25%;
+  top: -1303px;
+  width: 74%;
+  border: 5px solid black;
+}
+.aboutContent h1 {
+  margin-left: 20px;
+}
+.aboutContent p {
+  margin-left: 40px;
+}
+.aboutContent a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+#footer {
+  text-align: center;
+  font-size: 10px;
+}
+
+/* randomly generated tea cups hidden around the home page*/
+#randomTeaSpread {
+    height: 600px;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+}
+#randomTeaSpread .icon {
+    position: absolute;
+    opacity: 0;
+
+}
+#randomTeaSpread .icon:hover {
+  opacity: 1;
+}
+
+
+
